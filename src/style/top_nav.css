@@ -1,0 +1,31 @@
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+a {
+    color:#999;
+}
+
+nav.top {
+    background-color: #f2f2f2;
+    padding: 5px 0px 5px 0px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+nav.top span, nav.top a {
+    color: #999;
+    margin: 0px 10px 0px 10px;
+}
+
+nav.top a:hover {
+    /*当鼠标移动到超链上的时候，颜色变为天猫红 #C40000*/
+    color: #C40000;
+    /*去掉当鼠标移动到超链上的下划线*/
+    text-decoration: none;
+}
+
+.redColor {
+    color: #C40000 !important;
+}
+
